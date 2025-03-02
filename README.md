@@ -4,5 +4,6 @@ This is minimal example of using [mocket](https://github.com/oboard/mocket) libr
 
 ## Run
 ```bash
+git checkout generator
 make serve
 ```
