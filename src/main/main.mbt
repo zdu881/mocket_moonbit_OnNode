@@ -260,15 +260,6 @@ fn main {
       err => println("Error executing command: \{err}")
     }
   })
-  run_async(fn() {
-    try {
-      let response = @mocket.fetch!!("https://api64.ipify.org/")
-      println(response)
-    } catch {
-      err => println("Error fetching data: \{err}")
-    }
-  })
-  
   println("服务已启动，可访问以下API：")
   println("- 节点信息服务: http://localhost:\{port}/node_info")
   println("- 通信链路信息服务: http://localhost:\{port}/link_info")
