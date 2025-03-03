@@ -1,7 +1,7 @@
 .DEFAULT_GOAL = build
 
 # Define target directory and files
-TARGET_DIR := ./target/app/node/node/
+TARGET_DIR := ./target/app/node/node/node
 WASM_TARGET := ./target/wasm/release/build/main/main.wasm
 WASM_DEST := $(TARGET_DIR)/assets/app.wasm
 
